@@ -1,0 +1,8 @@
+---
+import DesktopNav from './DesktopNav.astro';
+import MobileNav from './MobileMenu.tsx';
+---
+<nav>
+  <DesktopNav />
+  <MobileNav client:load />
+</nav>

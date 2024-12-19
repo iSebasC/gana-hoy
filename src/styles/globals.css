@@ -1,0 +1,18 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colores personalizados */
+.bg-blue-900 {
+  background-color: rgb(0, 42, 141);
+}
+.text-blue-900 {
+  color: rgb(0, 42, 141);
+}
+.bg-orange-500 {
+  background-color: rgb(255, 120, 0);
+}
+.hover\:bg-orange-600:hover {
+  background-color: rgb(230, 100, 0);
+}
