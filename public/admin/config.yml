@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Sección Principal"
         name: "hero"
-        file: "src/content/hero.json"
+        file: "/src/content/hero.json"
         fields:
           - label: "Título"
             name: "titulo"
